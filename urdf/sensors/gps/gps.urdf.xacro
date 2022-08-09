@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find kcctsim)/urdf/common.xacro"/>
+  <xacro:include filename="$(find plat)/urdf/common.xacro"/>
 
   <xacro:macro name="gps_v0" params="parent *joint_origin">
 	<joint name="gps_joint" type="fixed">
